@@ -5994,3 +5994,18 @@ const BehaviorScript bhvIntroScene[] = {
         CALL_NATIVE(bhv_intro_scene_loop),
     END_LOOP(),
 };
+
+const BehaviorScript bhvSwapBox[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_block),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvSwapBoxOn[] = {
+    BEGIN(OBJ_LIST_SURFACE),
+    LOAD_COLLISION_DATA(zswapblockon_collision),
+    BEGIN_LOOP(),
+        CALL_NATIVE(load_object_collision_model),
+    END_LOOP(),
+};

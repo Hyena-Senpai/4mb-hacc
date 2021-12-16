@@ -1,0 +1,10 @@
+extern const GeoLayout zswapblock_geo[];
+extern Lights1 zswapblockoff_f3d_material_002_layer4_lights;
+extern u8 zswapblockoff_swapblock4_ci4[];
+extern u8 zswapblockoff_swapblock4_ci4_pal_rgba16[];
+extern Vtx zswapblockoff_blue_off_mesh_layer_4_vtx_0[24];
+extern Gfx zswapblockoff_blue_off_mesh_layer_4_tri_0[];
+extern Gfx mat_zswapblockoff_f3d_material_002_layer4[];
+extern Gfx mat_revert_zswapblockoff_f3d_material_002_layer4[];
+extern Gfx zswapblockoff_blue_off_mesh_layer_4[];
+extern Gfx zswapblockoff_material_revert_render_settings[];

@@ -347,6 +347,8 @@
 #define MODEL_WATER_BOMB                  0x54        // water_bomb_geo
 #define MODEL_WATER_BOMB_SHADOW           0x55        // water_bomb_shadow_geo
 #define MODEL_KING_BOBOMB                 0x56        // king_bobomb_geo
+#define MODEL_ZSWAPBLOCKON                0x57        // zswapblockon
+#define MODEL_ZSWAPBLOCKOFF               0x58        // zswapblockoff
 
 // group 4
 #define MODEL_MANTA_RAY                   0x54        // manta_seg5_geo_05008D14

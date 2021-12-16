@@ -9,3 +9,6 @@
 
 #include "king_bobomb/geo.inc.c"
 #include "water_bubble/geo.inc.c"
+
+#include "zswapblockon/geo.inc.c"
+#include "zswapblockoff/geo.inc.c"

@@ -1289,9 +1289,10 @@ os1610E
 os16110
 os16112*/
 
-#define /*0x0F4*/ oF4                                           OBJECT_FIELD_S32(0x1B)
-#define /*0x0F8*/ oF8                                           OBJECT_FIELD_S32(0x1C)
-#define /*0x0FC*/ oFC                                           OBJECT_FIELD_S32(0x1D)
+#define /*0x0F4*/ oLoadedObject                                           OBJECT_FIELD_S32(0x49)
+#define /*0x0F8*/ oBlockActive                                           OBJECT_FIELD_S32(0x1C)
+#define /*0x0FC*/ oJumpActive                                           OBJECT_FIELD_S32(0x1D)
+#define /*0x0F4*/ oAltBlockSwap                                 OBJECT_FIELD_S32(0x1B)
 #define /*0x100*/ o100                                          OBJECT_FIELD_S32(0x1E)
 #define /*0x104*/ o104                                          OBJECT_FIELD_S32(0x1F)
 #define /*0x108*/ o108                                          OBJECT_FIELD_S32(0x20)

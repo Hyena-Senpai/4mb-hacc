@@ -38,4 +38,10 @@ extern const GeoLayout water_bomb_shadow_geo[];
 extern const Gfx water_bubble_seg5_dl_05010D30[];
 extern const Gfx water_bubble_seg5_dl_05011000[];
 
+#include "zswapblockon/collision_header.h"
+
+#include "zswapblockon/geo_header.h"
+
+#include "zswapblockoff/geo_header.h"
+
 #endif

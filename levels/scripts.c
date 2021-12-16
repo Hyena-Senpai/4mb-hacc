@@ -216,6 +216,8 @@ const LevelScript script_func_global_4[] = {
     LOAD_MODEL_FROM_GEO(MODEL_WATER_BOMB,              water_bomb_geo),
     LOAD_MODEL_FROM_GEO(MODEL_WATER_BOMB_SHADOW,       water_bomb_shadow_geo),
     LOAD_MODEL_FROM_GEO(MODEL_KING_BOBOMB,             king_bobomb_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ZSWAPBLOCKOFF,           zswapblock_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_ZSWAPBLOCKON,           swapblockon_geo),
     RETURN(),
 };
 

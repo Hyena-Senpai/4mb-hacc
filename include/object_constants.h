@@ -2428,4 +2428,11 @@
     #define CUTSCENE_OBJ_5_END_BIRDS_2                      0x8
     #define CUTSCENE_OBJ_2_END_BIRDS_1                      0x9
 
+ /* SwapBox */
+ /* Type */
+#define SWAP_BOX_JUMP_MODE            0x0
+#define SWAP_BOX_BEEP_MODE            0x1
+#define SWAP_BOX_BEEP_MODE_WITH_SOUND 0x2
+#define SWAP_BOX_BEEP_MODE_ALTERNATE  0x3
+
 #endif // OBJECT_CONSTANTS_H
